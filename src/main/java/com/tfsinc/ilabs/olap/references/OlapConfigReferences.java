@@ -68,7 +68,7 @@ public class OlapConfigReferences {
 	// Default configurations
 	public static final String DEFAULT_OLAP_DRIVER_CLASS = "org.olap4j.driver.xmla.XmlaOlap4jDriver";
 	public static final String DEFAULT_OLAP_CONNECTION_URL = "jdbc:xmla:Server=http://"
-			+ "olap01.qa.custportal.pool.sv2.247-inc.net/olap/msmdpump.dll";
+			+ "localhost/olap/msmdpump.dll";
 	public static final boolean DEFAULT_VALIDATE_QUERY = true;
 	public static final boolean DEFAULT_DISPLAY_QUERY = true;
 	public static final String DEFAULT_MEASURE_AXIS = "COLUMNS";
